@@ -1,0 +1,11 @@
+START
+INPUT 'num'
+CALCULATE TOTAL NO:OF DIGITS d IN n
+SET sum = 0 and temp = n
+WHILE temp > 0
+EXTRACT LAST DIGIT r = temp % 10
+ADD r^d to sum
+REMOVE LAST DIGIT temp = temp // 10
+IF sum == n : PRINT "Armstrong Number"
+ELSE : PRINT "Not Armstrong Number"
+STOP

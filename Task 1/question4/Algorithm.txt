@@ -1,0 +1,9 @@
+START
+INPUT a number 'num'
+SET sum = 0
+WHILE n > 0
+EXTRACT LAST DIGIT r = n % 10
+ADD r to sum
+REMOVE LAST DIGIT n = n // 10
+PRINT sum
+STOP

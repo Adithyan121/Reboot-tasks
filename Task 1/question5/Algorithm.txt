@@ -1,0 +1,7 @@
+START
+INPUT NUMBERS a and b
+a = a + b
+b = a - b
+a = a - b
+PRINT a and b
+STOP

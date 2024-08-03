@@ -1,0 +1,8 @@
+START
+INPUT num
+IF num <= 1 : Print "the number is Not a Prime"
+ELSE : Loop from i = 2 to sqrt(n)
+IF n % i == 0 : Print "the number is Not a Prime" and STOP
+ELSE : Continue
+Print "the number is a Prime"
+STOP 

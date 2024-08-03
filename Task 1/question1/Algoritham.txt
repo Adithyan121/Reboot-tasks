@@ -1,0 +1,5 @@
+START 
+INPUT NUMBER 'num' 
+IF 'num % 2 == 0' : PRINT 'The number is even'
+ELSE : PRINT 'The number is odd'
+STOP
